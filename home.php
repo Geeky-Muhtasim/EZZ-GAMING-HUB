@@ -25,7 +25,7 @@
           <div class="col-lg-6">
             <h2 >Experience the Magic of Hogwarts</h2>
             <p >Get ready for the ultimate wizarding adventure with Hogwarts Legacy, the newest addition to our collection. Pre-order now and get a free Hogwarts T-shirt!</p>
-            <a href="#" class="pre-order">Pre-order now</a>
+            <a href="products.php" class="pre-order">Pre-order now</a>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
           <div class="col-lg-6">
             <h2>Enter the World of Harry Potter</h2>
             <p>Experience the magic of Hogwarts like never before with Hogwarts Legacy, the highly anticipated game set in the wizarding world. Pre-order now and get a free wand!</p>
-            <a href="#" class="pre-order">Pre-order now</a>
+            <a href="products.php" class="pre-order">Pre-order now</a>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
 <section class="icons">
   <div class="row">
         <div class="col-lg-12">
-          <h2 class="mtitle text-center m-5">Main Features</h2>
+          <h2 class="mtitle text-center m-5"> Main Features</h2>
         </div>
       </div>
   <div class="container">
@@ -94,7 +94,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h2 class="title text-center m-4">Featured Products</h2>
+        <h2 class="title text-center m-4"> <a href="products.php">Featured Products</a></h2>
       </div>
     </div>
     <div class="row">
@@ -138,7 +138,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="title text-center m-5">Featured Games</h2>
+                    <h2 class="title text-center m-5"><a href="products.php">Featured Games</a></h2>
                 </div>
             </div>
            <div class="feature-slider">
@@ -212,7 +212,7 @@
   <div class="container">
       <div class="row">
           <div class="col-lg-12">
-              <h2 class="title text-center m-5">Newly Launched Games</h2>
+              <h2 class="title text-center m-5"><a href="products.php">Newly Launched Games</a></h2>
           </div>
       </div>
         

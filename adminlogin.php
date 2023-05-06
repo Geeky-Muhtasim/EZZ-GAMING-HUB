@@ -19,7 +19,7 @@ include 'config.php';
     <div class="wrap-contact100">
         <form class="contact100-form validate-form" method="post">
             <span class="contact100-form-title">
-                Login
+                Admin Login
             </span>
 
             <div class="wrap-input100 validate-input" data-validate="Please enter username">

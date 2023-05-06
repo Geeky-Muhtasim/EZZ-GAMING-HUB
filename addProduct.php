@@ -17,7 +17,7 @@
 <body>
 
 <?php
-    include 'header.php'
+    include 'adminnavbar.php';
 ?>
 <?php
 	$img=$_POST['img']; 
@@ -37,25 +37,22 @@
 	mysqli_close($conn);
 
 
-?>
+?>  
+<div class="container">
     <h2>Add A Product</h2>
     <form action="addProduct.php" method="post">
-        
         <fieldset>
             <legend>Product Name</legend>
             <input type="text" id="product-name" name="product_name" required>
         </fieldset>
-
         <fieldset>
         <legend>Product Price</legend>
             <input type="number" id="product-price" name="product_price" min="0" step="0.01" required>
             </fieldset>
-
         <fieldset>
         <legend>Description</legend>
             <textarea id="product-description" name="product_description" rows="5" cols="30" required></textarea>
             </fieldset>
-
         <fieldset>
         <legend>Product Category</legend>
             <select id="product-category" name="product_category">
@@ -67,12 +64,10 @@
         <legend>Product Image</legend>
             <input type="file" id="img" name="img" accept="image/*">
             </fieldset>  
-        
-
         <input id="submit" type="submit" value="Add Product">
     </form>
-
-
+</div>
+    
 </body>
 
 </html>

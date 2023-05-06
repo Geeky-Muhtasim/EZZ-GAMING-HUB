@@ -507,7 +507,7 @@ li{
     background-color: #333;
     padding: 10px;
 }
-.title{
+.title a{
     display: block;
     color: #f1f1f1;
     background-color: #333;
